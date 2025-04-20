@@ -2,8 +2,8 @@
   "name": "Binance",
   "description": "Live market data from Binance exchange.",
   "api": {
-    "url": "https://api.binance.com/api/v3",
-    "openapi": "./openapi.yaml"
+    "url": "https://api.binance.com",
+    "openapi": "https://github.com/hvoberg/profitracer/raw/refs/heads/main/binance/openapi.yaml"
   },
   "auth": {
     "type": "none"

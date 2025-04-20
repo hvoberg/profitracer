@@ -2,8 +2,8 @@
   "name": "Alpha Vantage",
   "description": "Technical indicators and market data.",
   "api": {
-    "url": "https://www.alphavantage.co/query",
-    "openapi": "./openapi.yaml"
+    "url": "https://www.alphavantage.co",
+    "openapi": "https://github.com/hvoberg/profitracer/raw/refs/heads/main/alphavantage/openapi.yaml"
   },
   "auth": {
     "type": "none"

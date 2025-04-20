@@ -2,8 +2,8 @@
   "name": "ApeWisdom",
   "description": "Track Reddit sentiment and trending stocks/tokens.",
   "api": {
-    "url": "https://apewisdom.io/api",
-    "openapi": "./openapi.yaml"
+    "url": "https://apewisdom.io",
+    "openapi": "https://github.com/hvoberg/profitracer/raw/refs/heads/main/apewisdom/openapi.yaml"
   },
   "auth": {
     "type": "none"

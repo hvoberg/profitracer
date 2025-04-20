@@ -2,8 +2,8 @@
   "name": "CoinMarketCap",
   "description": "Crypto rankings and metadata from CoinMarketCap.",
   "api": {
-    "url": "https://pro-api.coinmarketcap.com/v1",
-    "openapi": "./openapi.yaml"
+    "url": "https://pro-api.coinmarketcap.com",
+    "openapi": "https://github.com/hvoberg/profitracer/raw/refs/heads/main/coinmarketcap/openapi.yaml"
   },
   "auth": {
     "type": "api_key",
