@@ -3,9 +3,9 @@ info:
   title: Binance Public API
   version: 1.0.0
 servers:
-  - url: https://api.binance.com/api/v3
+  - url: https://api.binance.com
 paths:
-  /ticker/price:
+  /api/v3/ticker/price:
     get:
       summary: Get latest price for a symbol
       parameters:
@@ -17,7 +17,7 @@ paths:
       responses:
         '200':
           description: Symbol price
-  /ticker/24hr:
+  /api/v3/ticker/24hr:
     get:
       summary: Get 24hr volume for a symbol
       parameters:

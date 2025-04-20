@@ -3,9 +3,9 @@ info:
   title: Alpha Vantage API
   version: 1.0.0
 servers:
-  - url: https://www.alphavantage.co/query
+  - url: https://www.alphavantage.co
 paths:
-  /:
+  /query:
     get:
       summary: Retrieve time series or indicator data
       parameters:
