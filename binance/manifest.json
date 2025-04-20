@@ -1,0 +1,11 @@
+{
+  "name": "Binance",
+  "description": "Live market data from Binance exchange.",
+  "api": {
+    "url": "https://api.binance.com/api/v3",
+    "openapi": "./openapi.yaml"
+  },
+  "auth": {
+    "type": "none"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ApeWisdom",
+  "description": "Track Reddit sentiment and trending stocks/tokens.",
+  "api": {
+    "url": "https://apewisdom.io/api",
+    "openapi": "./openapi.yaml"
+  },
+  "auth": {
+    "type": "none"
+  }
+}

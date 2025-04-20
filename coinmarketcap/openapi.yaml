@@ -1,0 +1,41 @@
+openapi: 3.0.0
+info:
+  title: CoinMarketCap API
+  version: 1.0.0
+servers:
+  - url: https://pro-api.coinmarketcap.com/v1
+paths:
+  /cryptocurrency/listings/latest:
+    get:
+      summary: Get latest market listings
+      parameters:
+        - in: query
+          name: limit
+          schema:
+            type: integer
+          required: false
+      responses:
+        '200':
+          description: Top market listings
+      security:
+        - ApiKeyAuth: []
+  /cryptocurrency/info:
+    get:
+      summary: Get coin metadata
+      parameters:
+        - in: query
+          name: symbol
+          schema:
+            type: string
+          required: true
+      responses:
+        '200':
+          description: Coin info
+      security:
+        - ApiKeyAuth: []
+components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: X-CMC_PRO_API_KEY

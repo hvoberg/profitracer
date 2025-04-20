@@ -1,0 +1,13 @@
+openapi: 3.0.0
+info:
+  title: ApeWisdom Reddit Sentiment
+  version: 1.0.0
+servers:
+  - url: https://apewisdom.io/api
+paths:
+  /v1.0/filter/all-stocks/page/1:
+    get:
+      summary: Top trending tickers on Reddit
+      responses:
+        '200':
+          description: List of trending tickers

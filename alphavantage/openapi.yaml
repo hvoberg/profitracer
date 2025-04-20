@@ -1,0 +1,41 @@
+openapi: 3.0.0
+info:
+  title: Alpha Vantage API
+  version: 1.0.0
+servers:
+  - url: https://www.alphavantage.co/query
+paths:
+  /:
+    get:
+      summary: Retrieve time series or indicator data
+      parameters:
+        - in: query
+          name: function
+          required: true
+          schema:
+            type: string
+        - in: query
+          name: symbol
+          required: true
+          schema:
+            type: string
+        - in: query
+          name: interval
+          schema:
+            type: string
+        - in: query
+          name: time_period
+          schema:
+            type: string
+        - in: query
+          name: series_type
+          schema:
+            type: string
+        - in: query
+          name: apikey
+          schema:
+            type: string
+            default: PBTGYWA4MZD8PXZL
+      responses:
+        '200':
+          description: Indicator data

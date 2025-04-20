@@ -1,0 +1,11 @@
+{
+  "name": "CoinGecko",
+  "description": "Live cryptocurrency data and market charts.",
+  "api": {
+    "url": "https://api.coingecko.com/api/v3",
+    "openapi": "./openapi.yaml"
+  },
+  "auth": {
+    "type": "none"
+  }
+}

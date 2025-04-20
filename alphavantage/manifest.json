@@ -1,0 +1,11 @@
+{
+  "name": "Alpha Vantage",
+  "description": "Technical indicators and market data.",
+  "api": {
+    "url": "https://www.alphavantage.co/query",
+    "openapi": "./openapi.yaml"
+  },
+  "auth": {
+    "type": "none"
+  }
+}

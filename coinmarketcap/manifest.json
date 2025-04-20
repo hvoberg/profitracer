@@ -1,0 +1,13 @@
+{
+  "name": "CoinMarketCap",
+  "description": "Crypto rankings and metadata from CoinMarketCap.",
+  "api": {
+    "url": "https://pro-api.coinmarketcap.com/v1",
+    "openapi": "./openapi.yaml"
+  },
+  "auth": {
+    "type": "api_key",
+    "key_name": "X-CMC_PRO_API_KEY",
+    "key_value": "cad9d7de-0b9f-4d22-868b-59d5d057cbbf"
+  }
+}
