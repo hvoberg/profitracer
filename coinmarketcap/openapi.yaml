@@ -3,9 +3,9 @@ info:
   title: CoinMarketCap API
   version: 1.0.0
 servers:
-  - url: https://pro-api.coinmarketcap.com
+  - url: https://pro-api.coinmarketcap.com/v1
 paths:
-  /v1/cryptocurrency/listings/latest:
+  /cryptocurrency/listings/latest:
     get:
       summary: Get latest market listings
       parameters:
@@ -19,7 +19,7 @@ paths:
           description: Top market listings
       security:
         - ApiKeyAuth: []
-  /v1/cryptocurrency/info:
+  /cryptocurrency/info:
     get:
       summary: Get coin metadata
       parameters:

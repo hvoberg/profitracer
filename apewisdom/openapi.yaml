@@ -3,9 +3,9 @@ info:
   title: ApeWisdom Reddit Sentiment
   version: 1.0.0
 servers:
-  - url: https://apewisdom.io
+  - url: https://apewisdom.io/api
 paths:
-  /api/v1.0/filter/all-stocks/page/1:
+  /v1.0/filter/all-stocks/page/1:
     get:
       summary: Top trending tickers on Reddit
       responses:

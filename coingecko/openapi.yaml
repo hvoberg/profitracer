@@ -3,9 +3,9 @@ info:
   title: CoinGecko API
   version: 1.0.0
 servers:
-  - url: https://api.coingecko.com
+  - url: https://api.coingecko.com/api/v3
 paths:
-  /api/v3/simple/price:
+  /simple/price:
     get:
       summary: Get live price of a cryptocurrency
       parameters:
@@ -24,7 +24,7 @@ paths:
       responses:
         '200':
           description: Current price
-  /api/v3/coins/{id}/market_chart:
+  /coins/{id}/market_chart:
     get:
       summary: Get market chart for a coin
       parameters:
